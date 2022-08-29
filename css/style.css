@@ -1,12 +1,12 @@
 .container{
     /* sfondo della pagine blu  */
     background-color: rgb(108, 176, 231);
-    
+    background-image: url(./../img/pattern.png);
 }
 .logo{
     /* sezione logo sfondo trasparente con immagine che si ripete */
     width: 200px;
-    background-image: url(./../img/pattern.png);
+    padding-top: 30px;
 }
 main{
     /* colore sfondo main bianco  */
@@ -16,12 +16,50 @@ main section{
     padding-top: 30px;
     padding-left: 0px;
 }
+h1{
+    font-size: 45px;
+}
+h3,h5{
+    color: rgb(156, 146, 146);
+}
 main section h5 span{
     /* coloro di blu il h5 degli scrittori */
     color: rgb(50, 163, 201);
 }
-p .evidenziatore{
+span.evidenziatore{
+    /* classe per evidenziare righe di testo  */
     background-color: yellow;
+}
+/* tabella */
+table {
+    border-collapse: collapse;
+  }
+  thead{
+    background-color: rgb(24, 135, 209);
+    color: white;
+    text-align: left;
+  }
+  td {
+    text-align: left;
+    padding-right: 200px;
+  }
+  
+  .blue {
+    background-color: #D6EEEE;
+  }
+  /* fine tabella */
+.articolo1, .articolo2{
+    /* classe per gli articoli che possono interessare al lettore */
+    background-image: url(../img/monitor.jpg);
+    width: 250px;
+    height: 200px;
+    color: white;
+    margin-top: 10px;
+}
+.articolo2{
+    /* sovrascriviamo la seconda immagine */
+    background-image: url(../img/graph.jpg);
+    margin-bottom: 30px;
 }
 *{
     margin: 0;
