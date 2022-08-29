@@ -12,7 +12,7 @@ main{
     /* colore sfondo main bianco  */
     background-color: white;
 }
-main section{
+main>section{
     padding-top: 30px;
     padding-left: 0px;
 }
@@ -22,7 +22,10 @@ h1{
 h3,h5{
     color: rgb(156, 146, 146);
 }
-main section h5 span{
+nav>h6{
+    color: rgb(156, 146, 146);
+}
+section>h5>span{
     /* coloro di blu il h5 degli scrittori */
     color: rgb(50, 163, 201);
 }
