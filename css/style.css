@@ -1,3 +1,27 @@
+.container{
+    /* sfondo della pagine blu  */
+    background-color: rgb(108, 176, 231);
+    
+}
 .logo{
+    /* sezione logo sfondo trasparente con immagine che si ripete */
     width: 200px;
+    background-image: url(./../img/pattern.png);
+}
+main{
+    /* colore sfondo main bianco  */
+    background-color: white;
+}
+main section{
+    padding-top: 10px;
+}
+main section h5 span{
+    /* coloro di blu il h5 degli scrittori */
+    color: rgb(50, 163, 201);
+}
+p .evidenziatore{
+    background-color: yellow;
+}
+*{
+    margin: 0;
 }
