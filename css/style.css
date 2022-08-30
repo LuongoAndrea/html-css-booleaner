@@ -1,7 +1,7 @@
 .container{
     /* sfondo della pagine blu  */
     background-color: rgb(108, 176, 231);
-    background-image: url(./../img/pattern.png);
+    background-image: url(../img/pattern.png);
 }
 .logo{
     /* sezione logo sfondo trasparente con immagine che si ripete */
