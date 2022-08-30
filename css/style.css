@@ -7,6 +7,8 @@
     /* sezione logo sfondo trasparente con immagine che si ripete */
     width: 200px;
     padding-top: 30px;
+    height: 150px;
+    padding-top: 80px;
 }
 main{
     /* colore sfondo main bianco  */
